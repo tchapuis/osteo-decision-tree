@@ -1,0 +1,205 @@
+{
+  "node": "cuisse",
+  "children": [
+    {
+      "node": "aiguë",
+      "children": [
+        {
+          "node": "inaugurale",
+          "children": [
+            {
+              "node": "Trauma",
+              "children": [
+                {
+                  "node": "impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "fracture"
+                    }
+                  ]
+                },
+                {
+                  "node": "Pas d'impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "hematome"
+                    },
+                    {
+                      "node": "dysfonctions"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "brutale",
+              "children": [
+                {
+                  "node": "impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "rupture tendineuse"
+                    },
+                    {
+                      "node": "rupture musculaire"
+                    }
+                  ]
+                },
+                {
+                  "node": "PAS d'impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "rupture musculaire partielle"
+                    },
+                    {
+                      "node": "elongation"
+                    },
+                    {
+                      "node": "tendinopathie"
+                    }
+                  ]
+                },
+                {
+                  "node": "urgence",
+                  "children": [
+                    {
+                      "node": "vascu",
+                      "children": [
+                        {
+                          "node": "Ischemie musculaire aiguë"
+                        },
+                        {
+                          "node": "phlébite"
+                        }
+                      ]
+                    },
+                    {
+                      "node": "musculaire",
+                      "children": [
+                        {
+                          "node": "myosite"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "intermittente",
+              "children": [
+                {
+                  "node": "chronique",
+                  "children": [
+                    {
+                      "node": "musculaire",
+                      "children": [
+                        {
+                          "node": "medicaments"
+                        },
+                        {
+                          "node": "fibromyalgie"
+                        },
+                        {
+                          "node": "myofasciites"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "node": "de repos",
+                  "children": [
+                    {
+                      "node": "neuro",
+                      "children": [
+                        {
+                          "node": "sciatique-cruralgie"
+                        },
+                        {
+                          "node": "nevralgie obturatruce-meralgie",
+                          "children": [
+                            {
+                              "node": "crush syndrom"
+                            },
+                            {
+                              "node": "hernie"
+                            },
+                            {
+                              "node": "DIM"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "node": "musculaire",
+                      "children": [
+                        {
+                          "node": "crampes"
+                        }
+                      ]
+                    },
+                    {
+                      "node": "vascu",
+                      "children": [
+                        {
+                          "node": "varices"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "node": "effort",
+                  "children": [
+                    {
+                      "node": "musculaire",
+                      "children": [
+                        {
+                          "node": "fibrose sequellaire"
+                        }
+                      ]
+                    },
+                    {
+                      "node": "neuro",
+                      "children": [
+                        {
+                          "node": "CLE",
+                          "children": [
+                            {
+                              "node": "arthrose"
+                            },
+                            {
+                              "node": "hernie"
+                            },
+                            {
+                              "node": "cancer I et II"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "node": "vascu",
+                      "children": [
+                        {
+                          "node": "AOMI",
+                          "children": [
+                            {
+                              "node": "maladie athéromateuse"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

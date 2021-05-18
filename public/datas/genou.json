@@ -1,0 +1,279 @@
+{
+  "node": "Genou",
+  "children": [
+    {
+      "node": "Aiguë",
+      "children": [
+        {
+          "node": "inaugurale",
+          "children": [
+            {
+              "node": "Trauma",
+              "children": [
+                {
+                  "node": "Impotence fonctionnelle totale",
+                  "children": [
+                    {
+                      "node": "Fracture"
+                    },
+                    {
+                      "node": "Entorse grave"
+                    },
+                    {
+                      "node": "Rupture tendineuse"
+                    },
+                    {
+                      "node": "ménisques"
+                    }
+                  ]
+                },
+                {
+                  "node": "PAS d'impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "entorse"
+                    },
+                    {
+                      "node": "tendinite"
+                    },
+                    {
+                      "node": "hémarthrose"
+                    },
+                    {
+                      "node": "Algodystr."
+                    },
+                    {
+                      "node": "dysfonctions"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "Non Trauma",
+              "children": [
+                {
+                  "node": "mécanique",
+                  "children": [
+                    {
+                      "node": "tendinite"
+                    },
+                    {
+                      "node": "bursite"
+                    },
+                    {
+                      "node": "meniscose"
+                    },
+                    {
+                      "node": "conflit femoro-patellaire"
+                    }
+                  ]
+                },
+                {
+                  "node": "neuro",
+                  "children": [
+                    {
+                      "node": "nerf fibulaire commun"
+                    },
+                    {
+                      "node": "nerf saphène"
+                    },
+                    {
+                      "node": "nerf cutané post de cuisse"
+                    },
+                    {
+                      "node": "L4-L5"
+                    }
+                  ]
+                },
+                {
+                  "node": "impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "luxation patella"
+                    },
+                    {
+                      "node": "ONA"
+                    },
+                    {
+                      "node": "fracture de fatigue"
+                    },
+                    {
+                      "node": "rupture de kyste poplité"
+                    }
+                  ]
+                },
+                {
+                  "node": "douleur nocture et dirune",
+                  "children": [
+                    {
+                      "node": "inflammatoire",
+                      "children": [
+                        {
+                          "node": "poly arthrite",
+                          "children": [
+                            {
+                              "node": "patho rhumastismales"
+                            },
+                            {
+                              "node": "patho systémique"
+                            }
+                          ]
+                        },
+                        {
+                          "node": "mono arthrite",
+                          "children": [
+                            {
+                              "node": "chondrocalcinose"
+                            },
+                            {
+                              "node": "goutte"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "node": "algoneuro dystrophie"
+                    },
+                    {
+                      "node": "fièvre",
+                      "children": [
+                        {
+                          "node": "poly arthrite",
+                          "children": [
+                            {
+                              "node": "arthrite réactionnelle"
+                            }
+                          ]
+                        },
+                        {
+                          "node": "mono arthrite",
+                          "children": [
+                            {
+                              "node": "arthrite septique"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "node": "AEG",
+                      "children": [
+                        {
+                          "node": "Cancer I et II"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node": "Chronique"
+        }
+      ]
+    },
+    {
+      "node": "Chronique",
+      "children": [
+        {
+          "node": "mécanique",
+          "children": [
+            {
+              "node": "arthrose"
+            },
+            {
+              "node": "dysplasie femoro-patellaire"
+            },
+            {
+              "node": "meniscose"
+            },
+            {
+              "node": "tendinose"
+            },
+            {
+              "node": "bursite-hygroma"
+            }
+          ]
+        },
+        {
+          "node": "neuro",
+          "children": [
+            {
+              "node": "lombo sciatalgie - lombo cruralgie"
+            }
+          ]
+        },
+        {
+          "node": "impotence fonctionnelle",
+          "children": [
+            {
+              "node": "ONA"
+            }
+          ]
+        },
+        {
+          "node": "AEG",
+          "children": [
+            {
+              "node": "cancer I et II"
+            },
+            {
+              "node": "maladies systémique"
+            }
+          ]
+        },
+        {
+          "node": "douleur nocturne et dirune",
+          "children": [
+            {
+              "node": "AEG",
+              "children": [
+                {
+                  "node": "cancer I et II"
+                },
+                {
+                  "node": "maladies systémique"
+                }
+              ]
+            },
+            {
+              "node": "inflammatoire",
+              "children": [
+                {
+                  "node": "PR"
+                },
+                {
+                  "node": "rhum. psoriasique"
+                },
+                {
+                  "node": "SPA"
+                },
+                {
+                  "node": "goutte"
+                },
+                {
+                  "node": "maladies systémique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node": "adolescent",
+          "children": [
+            {
+              "node": "osteochondrite disséquante"
+            },
+            {
+              "node": "maladie d'osgood schlatter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

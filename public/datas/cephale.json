@@ -1,0 +1,100 @@
+{
+  "node": "Céphalé",
+  "children": [
+    {
+      "node": "aigue",
+      "children": [
+        {
+          "node": "inaugurale",
+          "children": [
+            {
+              "node": "brutale",
+              "children": [
+                {
+                  "node": "SA syndrome méningée nausée, photophobie, raideur de nuque",
+                  "children": [
+                    {
+                      "node": "Hémorragie méningée"
+                    },
+                    {
+                      "node": "Méningite"
+                    }
+                  ]
+                },
+                {
+                  "node": "Fièvre",
+                  "children": [
+                    {
+                      "node": "Méningite"
+                    },
+                    {
+                      "node": "sinusite"
+                    }
+                  ]
+                },
+                {
+                  "node": "signe neuro centraux SNV",
+                  "children": [
+                    {
+                      "node": "HTIC"
+                    }
+                  ]
+                },
+                {
+                  "node": "signes neuro",
+                  "children": [
+                    {
+                      "node": "AVC ischémique"
+                    },
+                    {
+                      "node": "AVC hémorragique"
+                    },
+                    {
+                      "node": "Dissection artère vertèbrale/ carotide"
+                    },
+                    {
+                      "node": "Thrombo phlébite"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "progressive",
+              "children": [
+                {
+                  "node": "signe neuro centraux SNV",
+                  "children": [
+                    {
+                      "node": "HTIC"
+                    },
+                    {
+                      "node": "Thrombo phlébite"
+                    }
+                  ]
+                },
+                {
+                  "node": "signes ocluaires, ORL",
+                  "children": [
+                    {
+                      "node": "Horton"
+                    },
+                    {
+                      "node": "Sinusite"
+                    },
+                    {
+                      "node": "glaucome aigue angle fermé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node": "récidivante"
+        }
+      ]
+    }
+  ]
+}

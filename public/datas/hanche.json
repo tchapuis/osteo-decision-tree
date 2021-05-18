@@ -1,0 +1,276 @@
+{
+  "node": "hanche",
+  "children": [
+    {
+      "node": "aiguë",
+      "children": [
+        {
+          "node": "Trauma",
+          "children": [
+            {
+              "node": "impotence fonctionnelle",
+              "children": [
+                {
+                  "node": "fracture"
+                },
+                {
+                  "node": "tendinite"
+                },
+                {
+                  "node": "hématome"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node": "Non trauma",
+          "children": [
+            {
+              "node": "impotence fonctionnelle",
+              "children": [
+                {
+                  "node": "adolescent",
+                  "children": [
+                    {
+                      "node": "epiphysiolyse"
+                    }
+                  ]
+                },
+                {
+                  "node": "algoneuro dystrophie"
+                },
+                {
+                  "node": "fracture de fatigue"
+                },
+                {
+                  "node": "ONA"
+                },
+                {
+                  "node": "fracture sur os patho meta-paget"
+                }
+              ]
+            },
+            {
+              "node": "douleur nocture et diurne",
+              "children": [
+                {
+                  "node": "inflammatoire",
+                  "children": [
+                    {
+                      "node": "adolescent",
+                      "children": [
+                        {
+                          "node": "ostéome ostéoïde"
+                        }
+                      ]
+                    },
+                    {
+                      "node": "coxite rhumatismales"
+                    },
+                    {
+                      "node": "chondrocalcinose"
+                    },
+                    {
+                      "node": "lymphangite réticulaire"
+                    }
+                  ]
+                },
+                {
+                  "node": "AEG",
+                  "children": [
+                    {
+                      "node": "cancer I et II"
+                    }
+                  ]
+                },
+                {
+                  "node": "fièvre",
+                  "children": [
+                    {
+                      "node": "Poly arthrite",
+                      "children": [
+                        {
+                          "node": "coxite tuberculeuse"
+                        },
+                        {
+                          "node": "arthrite réactionnelle"
+                        }
+                      ]
+                    },
+                    {
+                      "node": "mono arthrite",
+                      "children": [
+                        {
+                          "node": "arthrite septique"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "neuro",
+              "children": [
+                {
+                  "node": "nerf crural"
+                },
+                {
+                  "node": "nerf ilio hypogastrique"
+                },
+                {
+                  "node": "nerf cutané lat de cuisse"
+                },
+                {
+                  "node": "nerf ilio inguinal et génito femoral"
+                },
+                {
+                  "node": "T12-L3"
+                }
+              ]
+            },
+            {
+              "node": "mécanique",
+              "children": [
+                {
+                  "node": "enfant",
+                  "children": [
+                    {
+                      "node": "synovite aiguë transitoire"
+                    }
+                  ]
+                },
+                {
+                  "node": "tendinobursite MF"
+                },
+                {
+                  "node": "psoitisme"
+                },
+                {
+                  "node": "conflit coxo-fémoral"
+                },
+                {
+                  "node": "coxarthrose"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "chronique",
+      "children": [
+        {
+          "node": "impotence fonctionnelle",
+          "children": [
+            {
+              "node": "adolescent",
+              "children": [
+                {
+                  "node": "epiphysiolyse"
+                }
+              ]
+            },
+            {
+              "node": "ONA"
+            },
+            {
+              "node": "algoneuro dystrophie"
+            },
+            {
+              "node": "arthrose"
+            }
+          ]
+        },
+        {
+          "node": "douleur nocturne et diurne",
+          "children": [
+            {
+              "node": "inflammatoire",
+              "children": [
+                {
+                  "node": "PR"
+                },
+                {
+                  "node": "rhum. PSORIASIQUE"
+                },
+                {
+                  "node": "SPA"
+                },
+                {
+                  "node": "chondropathie"
+                },
+                {
+                  "node": "maladies systémique"
+                }
+              ]
+            },
+            {
+              "node": "AEG",
+              "children": [
+                {
+                  "node": "maladies systémique"
+                },
+                {
+                  "node": "cancer I et II"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node": "AEG",
+          "children": [
+            {
+              "node": "maladies systémique"
+            },
+            {
+              "node": "cancer I et II"
+            }
+          ]
+        },
+        {
+          "node": "neuro",
+          "children": [
+            {
+              "node": "lombo sciatalgie - lombo cruralgie"
+            },
+            {
+              "node": "plexus lombaire"
+            }
+          ]
+        },
+        {
+          "node": "mécanique",
+          "children": [
+            {
+              "node": "psoitisme"
+            },
+            {
+              "node": "tendinose"
+            },
+            {
+              "node": "bursite"
+            },
+            {
+              "node": "arthrose"
+            },
+            {
+              "node": "hernie"
+            },
+            {
+              "node": "enfant",
+              "children": [
+                {
+                  "node": "osteochondrite primitive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

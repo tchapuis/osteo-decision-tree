@@ -1,0 +1,268 @@
+{
+  "node": "Epaule",
+  "children": [
+    {
+      "node": "Aiguë",
+      "children": [
+        {
+          "node": "inaugurale",
+          "children": [
+            {
+              "node": "Trauma",
+              "children": [
+                {
+                  "node": "Impotance fonctionnelle totale",
+                  "children": [
+                    {
+                      "node": "Fracture"
+                    },
+                    {
+                      "node": "Entorse grave acromio-claviculaire"
+                    },
+                    {
+                      "node": "rupture partielle ou totale de coiffe"
+                    },
+                    {
+                      "node": "luxation GH"
+                    }
+                  ]
+                },
+                {
+                  "node": "PAS d'impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "entorse"
+                    },
+                    {
+                      "node": "tendinite"
+                    },
+                    {
+                      "node": "hémarthrose"
+                    },
+                    {
+                      "node": "Algodystr."
+                    },
+                    {
+                      "node": "Dysfonctions"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "Non trauma",
+              "children": [
+                {
+                  "node": "musculaire",
+                  "children": [
+                    {
+                      "node": "trapèze"
+                    },
+                    {
+                      "node": "sus épineux"
+                    },
+                    {
+                      "node": "deltoïde"
+                    }
+                  ]
+                },
+                {
+                  "node": "viscerales",
+                  "children": [
+                    {
+                      "node": "plevres"
+                    },
+                    {
+                      "node": "pancréas"
+                    },
+                    {
+                      "node": "cardiaque"
+                    },
+                    {
+                      "node": "estomac"
+                    }
+                  ]
+                },
+                {
+                  "node": "neuro",
+                  "children": [
+                    {
+                      "node": "NCB C5"
+                    },
+                    {
+                      "node": "Syndrome de personage-Turner"
+                    }
+                  ]
+                },
+                {
+                  "node": "inflammatoire",
+                  "children": [
+                    {
+                      "node": "Arthrite rhumatismale"
+                    },
+                    {
+                      "node": "Pseudodopolyarthrite rhizomelique"
+                    }
+                  ]
+                },
+                {
+                  "node": "fièvre",
+                  "children": [
+                    {
+                      "node": "Arthrite infectieuse"
+                    }
+                  ]
+                },
+                {
+                  "node": "impotence fonctionnelle",
+                  "children": [
+                    {
+                      "node": "Active",
+                      "children": [
+                        {
+                          "node": "Rupture degenerative de la coiffe"
+                        }
+                      ]
+                    },
+                    {
+                      "node": "Active et passive",
+                      "children": [
+                        {
+                          "node": "ONA"
+                        },
+                        {
+                          "node": "fracture de fatigue"
+                        },
+                        {
+                          "node": "capsule retractile"
+                        },
+                        {
+                          "node": "algodystrophie"
+                        },
+                        {
+                          "node": "Douleur nocturne et dirune",
+                          "children": [
+                            {
+                              "node": "bursite aigüe microcristalline"
+                            },
+                            {
+                              "node": "hémarthrose épaule sénile"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node": "Chronique"
+        }
+      ]
+    },
+    {
+      "node": "Chronique",
+      "children": [
+        {
+          "node": "récidivante",
+          "children": [
+            {
+              "node": "musculaire",
+              "children": [
+                {
+                  "node": "trapèze"
+                },
+                {
+                  "node": "sus épineux"
+                },
+                {
+                  "node": "deltoïde"
+                }
+              ]
+            },
+            {
+              "node": "neuro",
+              "children": [
+                {
+                  "node": "NCB C5"
+                },
+                {
+                  "node": "Syndrome de personage-Turner"
+                }
+              ]
+            },
+            {
+              "node": "inflammatoire",
+              "children": [
+                {
+                  "node": "Arthrite rhumatismale"
+                },
+                {
+                  "node": "Pseudodopolyarthrite rhizomelique"
+                }
+              ]
+            },
+            {
+              "node": "fièvre",
+              "children": [
+                {
+                  "node": "Arthrite infectieuse"
+                }
+              ]
+            },
+            {
+              "node": "impotence fonctionnelle",
+              "children": [
+                {
+                  "node": "Active et passive",
+                  "children": [
+                    {
+                      "node": "ONA"
+                    },
+                    {
+                      "node": "omarthrose"
+                    },
+                    {
+                      "node": "capsule retractile"
+                    }
+                  ]
+                },
+                {
+                  "node": "douleur nocturne et diurne",
+                  "children": [
+                    {
+                      "node": "tendiose"
+                    },
+                    {
+                      "node": "algodystropie"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node": "viscerales",
+              "children": [
+                {
+                  "node": "plevres"
+                },
+                {
+                  "node": "pancréas"
+                },
+                {
+                  "node": "cardiaque"
+                },
+                {
+                  "node": "estomac"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

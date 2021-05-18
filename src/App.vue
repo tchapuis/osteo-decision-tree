@@ -1,28 +1,58 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div v-if="elements">
+      <p>{{ displayNode }}</p>
+      <template v-for="elem in displayChildren">
+        <button v-if="elem.children" :key="elem.node" @click="ask(elem)">
+          {{ elem.node }}
+        </button>
+        <p v-else :key="elem.node">{{ elem.node }}</p>
+      </template>
+      <button @click="restart">restart</button>
+    </div>
+    <div v-else>
+      <button v-for="part in parts" @click="start(part)" :key="part">
+        {{ part }}
+      </button>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  data: function () {
+    return {
+      elements: null,
+      displayNode: {},
+      displayChildren: [],
+      parts: ["cephale", "cuisse", "epaule", "genou", "hanche"],
+    };
+  },
+  methods: {
+    ask: function (question) {
+      this.displayNode = question.node;
+      this.displayChildren = question.children;
+    },
+    start: function (part) {
+      fetch(`./datas/${part}.json`, {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      })
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          this.elements = data;
+          this.displayNode = this.elements.node;
+          this.displayChildren = this.elements.children;
+        });
+    },
+    restart: function () {
+      this.elements = null;
+    },
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
